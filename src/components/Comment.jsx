@@ -6,13 +6,13 @@ import { ThumbsUp, Trash } from 'phosphor-react';
 export function Comment() {
   return (
     <div className={styles.comment}>
-      <Avatar hasBorder={false} src= "https://veja.abril.com.br/wp-content/uploads/2016/05/alx_varejap_original.jpeg?quality=90&strip=info&w=739&h=553&crop=1" alt=""/>
+      <Avatar hasBorder={false} src= "https://github.com/gkum4.png" alt=""/>
     
       <div className={styles.commentBox}>
         <div className={styles.commentContent}>
           <header>
             <div className={styles.authorAndTime}>
-              <strong>Cerejas</strong>
+              <strong>gkum4</strong>
               <time title="11 de Maio às 08:13h" dateTime="2022-05-11 08:13:00">Cerca de 1h atrás</time>
             </div>
 
@@ -21,7 +21,7 @@ export function Comment() {
             </button>
           </header>
 
-          <p>Muito bom Devon, parabéns!! 👏👏</p>
+          <p>Well Done, Luiz!! 👏👏</p>
         </div>
 
         <footer>
